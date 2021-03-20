@@ -1,0 +1,211 @@
+body {
+    background-image: url('https://i.ytimg.com/vi/e78td13BCPo/maxresdefault.jpg');
+    height: 100vh;
+}
+
+.Sun {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ff5900;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 0px #ff5900;
+}
+
+.tart {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: 0% 0%;
+    transform: rotate(0deg) translate(-50%, -50%);
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.342);
+    animation: spin 2s linear infinite;
+}
+
+.tart div {
+    width: 8px;
+    height: 8px;
+    background-color: saddlebrown;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 10px 0px saddlebrown;
+}
+
+.zohra {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: 0% 0%;
+    transform: rotate(0deg) translate(-50%, -50%);
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.342);
+    animation: spin 3s linear infinite;
+}
+
+.zohra div {
+    width: 10px;
+    height: 10px;
+    background-color: #e2a25e;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 10px 0px saddlebrown;
+}
+
+.ard {
+    width: 270px;
+    height: 270px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: 0% 0%;
+    transform: rotate(0deg) translate(-50%, -50%);
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.342);
+    animation: spin 5s linear infinite;
+}
+
+.ard div {
+    width: 15px;
+    height: 15px;
+    background-color: #00aeff;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform-origin: 0% 0%;
+    transform: rotate(0deg) translate(-50%, -50%);
+    box-shadow: 0px 0px 10px 0px #00aeff;
+    animation: spin 5s linear infinite;
+}
+
+.ard div::before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: #464646;
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 10px 0px #464646;
+}
+
+.mrikh {
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: 0% 0%;
+    transform: rotate(0deg) translate(-50%, -50%);
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.342);
+    animation: spin 6s linear infinite;
+}
+
+.mrikh div {
+    width: 14px;
+    height: 14px;
+    background-color: #fc361f;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 10px 0px #fc361f;
+}
+
+.mochtari {
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: 0% 0%;
+    transform: rotate(0deg) translate(-50%, -50%);
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.342);
+    animation: spin 7s linear infinite;
+}
+
+.mochtari div {
+    width: 35px;
+    height: 35px;
+    background-color: rgb(191 158 114);
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 10px 0px rgb(191 158 114);
+}
+
+.zhal {
+    width: 550px;
+    height: 550px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: 0% 0%;
+    transform: rotate(0deg) translate(-50%, -50%);
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.342);
+    animation: spin 8s linear infinite;
+}
+
+.zhal div {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(211 188 143);
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 10px 0px rgb(211 188 143);
+}
+
+.zhal div::before {
+    content: '';
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-20%, -20%);
+    border: 2px solid rgb(184 172 164);
+    box-shadow: 0px 0px 10px 0px rgb(184 172 164);
+}
+
+.zhal div::after {
+    content: '';
+    width: 38px;
+    height: 38px;
+    background-color: transparent;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-27%, -27%);
+    border: 3px solid rgb(184 172 164);
+    box-shadow: 0px 0px 10px 0px rgb(184 172 164);
+}
+
+@keyframes spin {
+    to {
+       transform: rotate(1turn) translate(-50%, -50%)
+    }
+}
